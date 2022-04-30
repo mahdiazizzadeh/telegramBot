@@ -1,0 +1,9 @@
+{
+    "extends": [
+        "@fullstacksjs",
+        "@fullstacksjs/eslint-config/typecheck"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    }
+}
