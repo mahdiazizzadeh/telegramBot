@@ -39,6 +39,7 @@
     "removeComments": true,
     "allowJs": false,
     "checkJs": false,
-    "target": "ES6"
+    "target": "ES6",
+    "esModuleInterop": true
   },
 }
