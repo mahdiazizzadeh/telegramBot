@@ -9,7 +9,6 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "strict": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
@@ -18,20 +17,11 @@
     "module": "CommonJS",
     "moduleResolution": "Node",
     "baseUrl": "./",
-    "paths": {
-      "tests/*": [
-        "./test/*"
-      ],
-      "config/*": [
-        "./src/config/*"
-      ],
-    },
     "resolveJsonModule": true,
     "rootDir": "./src",
     "outDir": "./build",
     "types": [
       "node",
-      "jest"
     ],
     "declaration": true,
     "declarationDir": "./types",
@@ -42,4 +32,7 @@
     "target": "ES6",
     "esModuleInterop": true
   },
+  "ts-node": {
+    "files": true
+  }
 }
